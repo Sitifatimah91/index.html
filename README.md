@@ -43,7 +43,7 @@
 <body>
   <div class="container">
     <h1>CROOS GUILD (CRG)</h1>
-    <p><strong>Jumlah Pasokan:</strong> 1.000.000.000 COIN CROOS GUILD</p>
+    <p><strong>Jumlah Pasokan:</strong> 1.000.000.000.000 COIN CROOS GUILD</p>
     <p><strong>Standar:</strong> ERC-20</p>
     <p><strong>Kontrak:</strong> Ditulis dalam Solidity v0.8.0, menggunakan OpenZeppelin</p>
 
