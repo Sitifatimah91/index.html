@@ -5,6 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Berry Coin (BERRY)</title>
   <style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4; /* warna background */
+    padding: 2em;
+    color: #333;
+  }
+  .container {
+    max-width: 700px;
+    margin: auto;
+    background: #fff;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  h1, h2 {
+    color: #800080;
+  }
+</style>
+
     body {
       font-family: Arial, sans-serif;
       background: #f4f4f4;
@@ -21,9 +39,30 @@
     h1, h2 {
       color: #800080;
     }
-  </style>
+  </style>body {
+  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+  font-family: Arial, sans-serif;
+  padding: 2em;
+  color: #333;
+}
+
 </head>
-<body>
+ body {
+  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  padding: 2em;
+  color: white;
+}
+.container {
+  background: rgba(0, 0, 0, 0.6); /* transparan hitam supaya tulisan tetap terbaca */
+  padding: 2em;
+  max-width: 700px;
+  margin: auto;
+  border-radius: 10px;
+}
+
   <div class="container">
     <h1>Berry Coin (BERRY)</h1>
     <p><strong>Total Supply:</strong> 1.000.000.000 BERRY</p>
