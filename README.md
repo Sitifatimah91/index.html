@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Berry Coin (BERRY) adalah token eksperimental berbasis Ethereum, ditulis dalam Solidity dan menggunakan OpenZeppelin." />
-  <title>Berry Coin (BERRY)</title>
+  <meta name="description" content="CROOS GUILD (CRG) adalah token kumpulan berbasis Ethereum, ditulis dari hati ke hati untuk organisasi CROOSGUILD." />
+  <title>CROOS GUILD (CRG)</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -42,12 +42,12 @@
 </head>
 <body>
   <div class="container">
-    <h1>Berry Coin (BERRY)</h1>
-    <p><strong>Jumlah Pasokan:</strong> 1.000.000.000 BERRY</p>
+    <h1>CROOS GUILD (CRG)</h1>
+    <p><strong>Jumlah Pasokan:</strong> 1.000.000.000 COIN CROOS GUILD</p>
     <p><strong>Standar:</strong> ERC-20</p>
     <p><strong>Kontrak:</strong> Ditulis dalam Solidity v0.8.0, menggunakan OpenZeppelin</p>
 
     <h2>Tentang</h2>
-    <p><em>Berry Coin</em> adalah token berbasis Ethereum yang di buat untuk nakama sekalian
+    <p><em>COIN CROOS GUILD</em> adalah token berbasis Ethereum yang di buat untuk nakama sekalian
 
 
