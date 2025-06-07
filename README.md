@@ -48,5 +48,5 @@
     <p><strong>Kontrak:</strong> Ditulis dalam Solidity v0.8.0, menggunakan OpenZeppelin</p>
 
     <h2>Tentang</h2>
-    <p><em>Berry Coin</em> adalah token eksperimental berbasis Ethereum yang dibuat s
+    <p><em>Berry Coin</em> adalah token berbasis Ethereum yang di buat untuk nakama sekalian
 
