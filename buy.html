@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Beli Berry Coin</title>
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+</head>
+<body style="background-color: black; color: white; padding: 2em;">
+  <h1>Beli Berry Coin</h1>
+  <p>Silakan hubungkan MetaMask Anda dan kirim pembayaran.</p>
+
+  <button onclick="connectWallet()">Hubungkan Wallet</button>
+  <button onclick="sendTransaction()">Beli Sekarang</button>
+
+  <script>
+    let web3;
+    let account;
+
+    async function connectWallet() {
+      if (window.ethereum) {
+        web3 = new Web3(window.ethereum);
+        await window.ethereum.request({ method: 'eth_requestAccounts' });
+        const accounts = await web3.eth.getAccounts();
+        account = accounts[0];
+        alert("Wallet terhubung: " + account);
+      } else {
+        alert("MetaMask belum terpasang!");
+      }
+    }
+
+    async function sendTransaction() {
+      if (!account) {
+        alert("Silakan hubungkan wallet terlebih dahulu.");
+        return;
+      }
+
+      const toAddress = "0xAlamatWalletAnda"; // <- ganti dengan alamat wallet tujuan
+      const amountInEth = "0.01"; // <- nominal yang dibayar (dalam ETH)
+
+      try {
+        await web3.eth.sendTransaction({
+          from: account,
+          to: toAddress,
+          value: web3.utils.toWei(amountInEth, "ether")
+        });
+        alert("Transaksi berhasil!");
+      } catch (error) {
+        alert("Transaksi gagal: " + error.message);
+      }
+    }
+  </script>
+</body>
+</html>
