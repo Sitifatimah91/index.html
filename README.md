@@ -8,7 +8,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80');
+      background-image:  url('affiche_cross_guild_one_piece_buggy.webp');
       background-size: cover;
       background-position: center;
       padding: 2em;
