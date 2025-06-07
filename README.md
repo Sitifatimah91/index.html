@@ -1,1 +1,45 @@
-# index.html
+# index.h<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Berry Coin (BERRY)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 2em;
+      color: #333;
+    }
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background: #fff;
+      padding: 2em;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #800080;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Berry Coin (BERRY)</h1>
+    <p><strong>Total Supply:</strong> 1.000.000.000 BERRY</p>
+    <p><strong>Standar:</strong> ERC-20</p>
+    <p><strong>Kontrak:</strong> Ditulis dalam Solidity v0.8.0, menggunakan OpenZeppelin</p>
+
+    <h2>Tentang</h2>
+    <p>Berry Coin adalah token eksperimental berbasis Ethereum yang dibuat sebagai bagian dari pembelajaran blockchain & smart contract.</p>
+
+    <h2>Informasi Tambahan</h2>
+    <ul>
+      <li>Lisensi: MIT</li>
+      <li>Pengembang: Sitifatimah91</li>
+      <li>Repo GitHub: <a href="https://github.com/sitifatimah91/Coinberry" target="_blank">Coinberry</a></li>
+    </ul>
+  </div>
+</body>
+</html>
+tml
