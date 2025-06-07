@@ -49,4 +49,6 @@
 
     <h2>Tentang</h2>
     <p><em>Berry Coin</em> adalah token berbasis Ethereum yang di buat untuk nakama sekalian
+<a href="buy.html" style="color: yellow;">Beli Berry Coin</a>
+const toAddress = "0x1234abcd5678efgh9012ijklmnop3456qrst7890";
 
